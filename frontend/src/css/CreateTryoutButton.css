@@ -1,0 +1,29 @@
+.create-tryout-button {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #007bff, #0056b3); 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-transform: uppercase;
+}
+
+.create-tryout-button:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.create-tryout-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+}
+
+.create-tryout-button-div{
+    margin: 20px 20px 0px 20px;
+}
