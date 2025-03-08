@@ -1,0 +1,24 @@
+.to-card {
+    background-color: #37AFE1;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.to-card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.to-card hr {
+    width: 80%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5); /* Warna putih transparan */
+    border: none;
+    margin: 8px auto;
+}
+

@@ -1,22 +1,12 @@
 import "../css/Home.css"
+import TryoutCard from "../component/TryoutCard";
 
+
+const detail =  {title:"TO3", date:"19/02/2024",category:"mudah"}
 function Home () {
     return(
         <>
-        <div className="card-grid">
-            <div className="to-card">
-                <h1>TO1</h1>
-            </div>
-            <div className="to-card">
-                <h1>TO2</h1>
-            </div>
-            <div className="to-card">
-                <h1>TO3</h1>
-            </div>
-            <div className="to-card">
-                <h1>TO4</h1>
-            </div>
-        </div>
+            <TryoutCard detail={detail}/>
         </>
     )
 }
